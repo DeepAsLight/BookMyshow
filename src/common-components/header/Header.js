@@ -12,7 +12,8 @@ import { usertoken } from "../../actions/auth";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 
-function Header({ usertoken }) {
+function Header({ usertoken }) { 
+   
   const [cookies] = useCookies(["user_token"]);
 
   //Geting last variable in url //
